@@ -1,0 +1,8 @@
+Tugas :
+1. Buat User Interface
+2. Buat Form Pembayaran
+3. Buat Form Pilih Kamar
+4. Buat Form Jenis Kamar
+5. Buat Form Pemesanan
+6. Buat Form Utama
+7. Buat Form No Kamar

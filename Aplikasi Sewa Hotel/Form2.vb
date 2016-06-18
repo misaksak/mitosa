@@ -31,7 +31,7 @@
         Me.Close()
     End Sub
 
-    Private Sub linkkembali_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles linkkembali.LinkClicked
+    Private Sub linkkembali_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
         FormUtama.Show()
         Me.Close()
     End Sub

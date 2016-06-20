@@ -30,3 +30,17 @@ D:\ADOLA2\ADOLA\TKPPL\imk 2\imk 2\bin\Debug\imk 2.exe.config
 D:\ADOLA2\ADOLA\TKPPL\imk 2\imk 2\obj\Debug\imk 2.exe
 D:\ADOLA2\ADOLA\TKPPL\imk 2\imk 2\obj\Debug\imk 2.xml
 D:\ADOLA2\ADOLA\TKPPL\imk 2\imk 2\obj\Debug\imk 2.pdb
+D:\A\TKPPL\TKPPL\imk 2\imk 2\mitosa\bin\Debug\imk 2.exe.config
+D:\A\TKPPL\TKPPL\imk 2\imk 2\mitosa\obj\Debug\imk 2.exe
+D:\A\TKPPL\TKPPL\imk 2\imk 2\mitosa\obj\Debug\imk 2.xml
+D:\A\TKPPL\TKPPL\imk 2\imk 2\mitosa\obj\Debug\imk 2.pdb
+D:\A\TKPPL\TKPPL\imk 2\imk 2\mitosa\bin\Debug\imk 2.exe
+D:\A\TKPPL\TKPPL\imk 2\imk 2\mitosa\bin\Debug\imk 2.pdb
+D:\A\TKPPL\TKPPL\imk 2\imk 2\mitosa\bin\Debug\imk 2.xml
+D:\A\TKPPL\TKPPL\imk 2\imk 2\mitosa\obj\Debug\imk_2.Form1.resources
+D:\A\TKPPL\TKPPL\imk 2\imk 2\mitosa\obj\Debug\imk_2.Form2.resources
+D:\A\TKPPL\TKPPL\imk 2\imk 2\mitosa\obj\Debug\imk_2.Form3.resources
+D:\A\TKPPL\TKPPL\imk 2\imk 2\mitosa\obj\Debug\imk_2.Form4.resources
+D:\A\TKPPL\TKPPL\imk 2\imk 2\mitosa\obj\Debug\imk_2.Form5.resources
+D:\A\TKPPL\TKPPL\imk 2\imk 2\mitosa\obj\Debug\imk_2.Resources.resources
+D:\A\TKPPL\TKPPL\imk 2\imk 2\mitosa\obj\Debug\B_142111851_Sovia Elisabet.vbproj.GenerateResource.Cache

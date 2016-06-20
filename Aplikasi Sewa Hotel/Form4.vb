@@ -5,20 +5,9 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnpesan.Click
-        If (txtnama.TextLength <= 0) Then
-            Text = "Nama Pemesan Belum Diisi"
-        End If
-        If (cbKartu.Text.Length <= 0) Then
-            Text = "No Kartu Belum Diisi"
-        End If
-        If (txtNoidentitas.TextLength <= 0) Then
-            Text = "No Identitas Belum Diisi"
-        End If
-        If (txtnotelpon.TextLength <= 0) Then
-            Text = "No Telepon Belum Diisi"
-        End If
-
+        Text = "Berhasil Memesan Kamar"
         Form5.Show()
+
 
     End Sub
 

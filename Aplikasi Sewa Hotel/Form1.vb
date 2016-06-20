@@ -6,4 +6,8 @@
     End Sub
 
 
+    Private Sub btnKeluar_Click(sender As Object, e As EventArgs) Handles btnKeluar.Click
+        Text = "Keluar Dari Form"
+        Me.Close()
+    End Sub
 End Class

@@ -23,617 +23,617 @@ Partial Class FormNoKamar
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormNoKamar))
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.Button46 = New System.Windows.Forms.Button()
-        Me.Button44 = New System.Windows.Forms.Button()
-        Me.Button43 = New System.Windows.Forms.Button()
-        Me.Button42 = New System.Windows.Forms.Button()
-        Me.Button40 = New System.Windows.Forms.Button()
-        Me.Button38 = New System.Windows.Forms.Button()
-        Me.Button37 = New System.Windows.Forms.Button()
-        Me.Button35 = New System.Windows.Forms.Button()
-        Me.Button34 = New System.Windows.Forms.Button()
-        Me.Button49 = New System.Windows.Forms.Button()
-        Me.Button33 = New System.Windows.Forms.Button()
-        Me.Button48 = New System.Windows.Forms.Button()
-        Me.Button36 = New System.Windows.Forms.Button()
-        Me.Button45 = New System.Windows.Forms.Button()
-        Me.Button39 = New System.Windows.Forms.Button()
-        Me.Button41 = New System.Windows.Forms.Button()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Button31 = New System.Windows.Forms.Button()
-        Me.Button28 = New System.Windows.Forms.Button()
-        Me.Button27 = New System.Windows.Forms.Button()
-        Me.Button23 = New System.Windows.Forms.Button()
-        Me.Button21 = New System.Windows.Forms.Button()
-        Me.Button20 = New System.Windows.Forms.Button()
-        Me.Button19 = New System.Windows.Forms.Button()
-        Me.Button17 = New System.Windows.Forms.Button()
-        Me.Button18 = New System.Windows.Forms.Button()
-        Me.Button32 = New System.Windows.Forms.Button()
-        Me.Button30 = New System.Windows.Forms.Button()
-        Me.Button29 = New System.Windows.Forms.Button()
-        Me.Button22 = New System.Windows.Forms.Button()
-        Me.Button26 = New System.Windows.Forms.Button()
-        Me.Button24 = New System.Windows.Forms.Button()
-        Me.Button25 = New System.Windows.Forms.Button()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Button15 = New System.Windows.Forms.Button()
-        Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button13 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.Button16 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.gbkamarkhusus = New System.Windows.Forms.GroupBox()
+        Me.btn6503 = New System.Windows.Forms.Button()
+        Me.btn6403 = New System.Windows.Forms.Button()
+        Me.btn6203 = New System.Windows.Forms.Button()
+        Me.btn6103 = New System.Windows.Forms.Button()
+        Me.btn5903 = New System.Windows.Forms.Button()
+        Me.btn5603 = New System.Windows.Forms.Button()
+        Me.btn5703 = New System.Windows.Forms.Button()
+        Me.btn5503 = New System.Windows.Forms.Button()
+        Me.btn5303 = New System.Windows.Forms.Button()
+        Me.btn5203 = New System.Windows.Forms.Button()
+        Me.btn6603 = New System.Windows.Forms.Button()
+        Me.btn5103 = New System.Windows.Forms.Button()
+        Me.btn6303 = New System.Windows.Forms.Button()
+        Me.btn5403 = New System.Windows.Forms.Button()
+        Me.btn6003 = New System.Windows.Forms.Button()
+        Me.btn5803 = New System.Windows.Forms.Button()
+        Me.gbkamarpremium = New System.Windows.Forms.GroupBox()
+        Me.btn4402 = New System.Windows.Forms.Button()
+        Me.btn4602 = New System.Windows.Forms.Button()
+        Me.btn4302 = New System.Windows.Forms.Button()
+        Me.btn4202 = New System.Windows.Forms.Button()
+        Me.btn4002 = New System.Windows.Forms.Button()
+        Me.btn3602 = New System.Windows.Forms.Button()
+        Me.btn3502 = New System.Windows.Forms.Button()
+        Me.btn3202 = New System.Windows.Forms.Button()
+        Me.btn4502 = New System.Windows.Forms.Button()
+        Me.btn3102 = New System.Windows.Forms.Button()
+        Me.btn3302 = New System.Windows.Forms.Button()
+        Me.btn3402 = New System.Windows.Forms.Button()
+        Me.btn4102 = New System.Windows.Forms.Button()
+        Me.btn3702 = New System.Windows.Forms.Button()
+        Me.btn3902 = New System.Windows.Forms.Button()
+        Me.btn3802 = New System.Windows.Forms.Button()
+        Me.gbkamarekonomi = New System.Windows.Forms.GroupBox()
+        Me.btn2701 = New System.Windows.Forms.Button()
+        Me.Bbtn2301 = New System.Windows.Forms.Button()
+        Me.btn2201 = New System.Windows.Forms.Button()
+        Me.btn2101 = New System.Windows.Forms.Button()
+        Me.btn1901 = New System.Windows.Forms.Button()
+        Me.btn1701 = New System.Windows.Forms.Button()
+        Me.btn2601 = New System.Windows.Forms.Button()
+        Me.btn2501 = New System.Windows.Forms.Button()
+        Me.btn2401 = New System.Windows.Forms.Button()
+        Me.btn2001 = New System.Windows.Forms.Button()
+        Me.btn1801 = New System.Windows.Forms.Button()
+        Me.btn1601 = New System.Windows.Forms.Button()
+        Me.btn1501 = New System.Windows.Forms.Button()
+        Me.btn1401 = New System.Windows.Forms.Button()
+        Me.btn1301 = New System.Windows.Forms.Button()
+        Me.btn1201 = New System.Windows.Forms.Button()
         Me.lblJenisKamar = New System.Windows.Forms.Label()
-        Me.GroupBox3.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
-        Me.GroupBox1.SuspendLayout()
+        Me.gbkamarkhusus.SuspendLayout()
+        Me.gbkamarpremium.SuspendLayout()
+        Me.gbkamarekonomi.SuspendLayout()
         Me.SuspendLayout()
         '
-        'GroupBox3
-        '
-        Me.GroupBox3.Controls.Add(Me.Button46)
-        Me.GroupBox3.Controls.Add(Me.Button44)
-        Me.GroupBox3.Controls.Add(Me.Button43)
-        Me.GroupBox3.Controls.Add(Me.Button42)
-        Me.GroupBox3.Controls.Add(Me.Button40)
-        Me.GroupBox3.Controls.Add(Me.Button38)
-        Me.GroupBox3.Controls.Add(Me.Button37)
-        Me.GroupBox3.Controls.Add(Me.Button35)
-        Me.GroupBox3.Controls.Add(Me.Button34)
-        Me.GroupBox3.Controls.Add(Me.Button49)
-        Me.GroupBox3.Controls.Add(Me.Button33)
-        Me.GroupBox3.Controls.Add(Me.Button48)
-        Me.GroupBox3.Controls.Add(Me.Button36)
-        Me.GroupBox3.Controls.Add(Me.Button45)
-        Me.GroupBox3.Controls.Add(Me.Button39)
-        Me.GroupBox3.Controls.Add(Me.Button41)
-        Me.GroupBox3.Location = New System.Drawing.Point(90, 355)
-        Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(457, 135)
-        Me.GroupBox3.TabIndex = 4
-        Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Kamar Khusus"
-        '
-        'Button46
-        '
-        Me.Button46.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button46.Location = New System.Drawing.Point(333, 83)
-        Me.Button46.Name = "Button46"
-        Me.Button46.Size = New System.Drawing.Size(43, 29)
-        Me.Button46.TabIndex = 55
-        Me.Button46.Text = "6503"
-        Me.Button46.UseVisualStyleBackColor = False
-        '
-        'Button44
-        '
-        Me.Button44.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button44.Location = New System.Drawing.Point(284, 83)
-        Me.Button44.Name = "Button44"
-        Me.Button44.Size = New System.Drawing.Size(43, 29)
-        Me.Button44.TabIndex = 54
-        Me.Button44.Text = "6403"
-        Me.Button44.UseVisualStyleBackColor = False
-        '
-        'Button43
-        '
-        Me.Button43.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button43.Location = New System.Drawing.Point(186, 83)
-        Me.Button43.Name = "Button43"
-        Me.Button43.Size = New System.Drawing.Size(43, 29)
-        Me.Button43.TabIndex = 53
-        Me.Button43.Text = "6203"
-        Me.Button43.UseVisualStyleBackColor = False
-        '
-        'Button42
-        '
-        Me.Button42.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button42.Location = New System.Drawing.Point(137, 83)
-        Me.Button42.Name = "Button42"
-        Me.Button42.Size = New System.Drawing.Size(43, 29)
-        Me.Button42.TabIndex = 52
-        Me.Button42.Text = "6103"
-        Me.Button42.UseVisualStyleBackColor = False
-        '
-        'Button40
-        '
-        Me.Button40.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button40.Location = New System.Drawing.Point(39, 83)
-        Me.Button40.Name = "Button40"
-        Me.Button40.Size = New System.Drawing.Size(43, 29)
-        Me.Button40.TabIndex = 51
-        Me.Button40.Text = "5903"
-        Me.Button40.UseVisualStyleBackColor = False
-        '
-        'Button38
-        '
-        Me.Button38.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button38.Location = New System.Drawing.Point(284, 29)
-        Me.Button38.Name = "Button38"
-        Me.Button38.Size = New System.Drawing.Size(43, 29)
-        Me.Button38.TabIndex = 50
-        Me.Button38.Text = "5603"
-        Me.Button38.UseVisualStyleBackColor = False
-        '
-        'Button37
-        '
-        Me.Button37.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button37.Location = New System.Drawing.Point(332, 29)
-        Me.Button37.Name = "Button37"
-        Me.Button37.Size = New System.Drawing.Size(43, 29)
-        Me.Button37.TabIndex = 50
-        Me.Button37.Text = "5703"
-        Me.Button37.UseVisualStyleBackColor = False
-        '
-        'Button35
-        '
-        Me.Button35.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button35.Location = New System.Drawing.Point(235, 29)
-        Me.Button35.Name = "Button35"
-        Me.Button35.Size = New System.Drawing.Size(43, 29)
-        Me.Button35.TabIndex = 49
-        Me.Button35.Text = "5503"
-        Me.Button35.UseVisualStyleBackColor = False
-        '
-        'Button34
-        '
-        Me.Button34.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button34.Location = New System.Drawing.Point(137, 29)
-        Me.Button34.Name = "Button34"
-        Me.Button34.Size = New System.Drawing.Size(43, 29)
-        Me.Button34.TabIndex = 48
-        Me.Button34.Text = "5303"
-        Me.Button34.UseVisualStyleBackColor = False
-        '
-        'Button49
-        '
-        Me.Button49.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button49.Location = New System.Drawing.Point(88, 29)
-        Me.Button49.Name = "Button49"
-        Me.Button49.Size = New System.Drawing.Size(43, 29)
-        Me.Button49.TabIndex = 38
-        Me.Button49.Text = "5203"
-        Me.Button49.UseVisualStyleBackColor = False
-        '
-        'Button33
-        '
-        Me.Button33.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button33.Location = New System.Drawing.Point(382, 83)
-        Me.Button33.Name = "Button33"
-        Me.Button33.Size = New System.Drawing.Size(43, 29)
-        Me.Button33.TabIndex = 47
-        Me.Button33.Text = "6603"
-        Me.Button33.UseVisualStyleBackColor = False
-        '
-        'Button48
-        '
-        Me.Button48.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button48.Location = New System.Drawing.Point(39, 29)
-        Me.Button48.Name = "Button48"
-        Me.Button48.Size = New System.Drawing.Size(43, 29)
-        Me.Button48.TabIndex = 32
-        Me.Button48.Text = "5103"
-        Me.Button48.UseVisualStyleBackColor = False
-        '
-        'Button36
-        '
-        Me.Button36.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button36.Location = New System.Drawing.Point(235, 83)
-        Me.Button36.Name = "Button36"
-        Me.Button36.Size = New System.Drawing.Size(43, 29)
-        Me.Button36.TabIndex = 44
-        Me.Button36.Text = "6303"
-        Me.Button36.UseVisualStyleBackColor = False
-        '
-        'Button45
-        '
-        Me.Button45.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button45.Location = New System.Drawing.Point(186, 29)
-        Me.Button45.Name = "Button45"
-        Me.Button45.Size = New System.Drawing.Size(43, 29)
-        Me.Button45.TabIndex = 35
-        Me.Button45.Text = "5403"
-        Me.Button45.UseVisualStyleBackColor = False
-        '
-        'Button39
-        '
-        Me.Button39.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button39.Location = New System.Drawing.Point(88, 83)
-        Me.Button39.Name = "Button39"
-        Me.Button39.Size = New System.Drawing.Size(43, 29)
-        Me.Button39.TabIndex = 41
-        Me.Button39.Text = "6003"
-        Me.Button39.UseVisualStyleBackColor = False
-        '
-        'Button41
-        '
-        Me.Button41.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button41.Location = New System.Drawing.Point(382, 29)
-        Me.Button41.Name = "Button41"
-        Me.Button41.Size = New System.Drawing.Size(43, 29)
-        Me.Button41.TabIndex = 39
-        Me.Button41.Text = "5803"
-        Me.Button41.UseVisualStyleBackColor = False
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.Controls.Add(Me.Button31)
-        Me.GroupBox2.Controls.Add(Me.Button28)
-        Me.GroupBox2.Controls.Add(Me.Button27)
-        Me.GroupBox2.Controls.Add(Me.Button23)
-        Me.GroupBox2.Controls.Add(Me.Button21)
-        Me.GroupBox2.Controls.Add(Me.Button20)
-        Me.GroupBox2.Controls.Add(Me.Button19)
-        Me.GroupBox2.Controls.Add(Me.Button17)
-        Me.GroupBox2.Controls.Add(Me.Button18)
-        Me.GroupBox2.Controls.Add(Me.Button32)
-        Me.GroupBox2.Controls.Add(Me.Button30)
-        Me.GroupBox2.Controls.Add(Me.Button29)
-        Me.GroupBox2.Controls.Add(Me.Button22)
-        Me.GroupBox2.Controls.Add(Me.Button26)
-        Me.GroupBox2.Controls.Add(Me.Button24)
-        Me.GroupBox2.Controls.Add(Me.Button25)
-        Me.GroupBox2.Location = New System.Drawing.Point(88, 204)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(459, 135)
-        Me.GroupBox2.TabIndex = 3
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Kamar Premium"
-        '
-        'Button31
-        '
-        Me.Button31.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button31.Location = New System.Drawing.Point(286, 73)
-        Me.Button31.Name = "Button31"
-        Me.Button31.Size = New System.Drawing.Size(43, 29)
-        Me.Button31.TabIndex = 37
-        Me.Button31.Text = "4402"
-        Me.Button31.UseVisualStyleBackColor = False
-        '
-        'Button28
-        '
-        Me.Button28.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button28.Location = New System.Drawing.Point(383, 73)
-        Me.Button28.Name = "Button28"
-        Me.Button28.Size = New System.Drawing.Size(43, 29)
-        Me.Button28.TabIndex = 37
-        Me.Button28.Text = "4602"
-        Me.Button28.UseVisualStyleBackColor = False
-        '
-        'Button27
-        '
-        Me.Button27.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button27.Location = New System.Drawing.Point(237, 73)
-        Me.Button27.Name = "Button27"
-        Me.Button27.Size = New System.Drawing.Size(43, 29)
-        Me.Button27.TabIndex = 36
-        Me.Button27.Text = "4302"
-        Me.Button27.UseVisualStyleBackColor = False
-        '
-        'Button23
-        '
-        Me.Button23.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button23.Location = New System.Drawing.Point(188, 73)
-        Me.Button23.Name = "Button23"
-        Me.Button23.Size = New System.Drawing.Size(43, 29)
-        Me.Button23.TabIndex = 35
-        Me.Button23.Text = "4202"
-        Me.Button23.UseVisualStyleBackColor = False
-        '
-        'Button21
-        '
-        Me.Button21.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button21.Location = New System.Drawing.Point(90, 73)
-        Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(43, 29)
-        Me.Button21.TabIndex = 34
-        Me.Button21.Text = "4002"
-        Me.Button21.UseVisualStyleBackColor = False
-        '
-        'Button20
-        '
-        Me.Button20.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button20.Location = New System.Drawing.Point(286, 19)
-        Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(43, 29)
-        Me.Button20.TabIndex = 33
-        Me.Button20.Text = "3602"
-        Me.Button20.UseVisualStyleBackColor = False
-        '
-        'Button19
-        '
-        Me.Button19.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button19.Location = New System.Drawing.Point(237, 19)
-        Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(43, 29)
-        Me.Button19.TabIndex = 32
-        Me.Button19.Text = "3502"
-        Me.Button19.UseVisualStyleBackColor = False
-        '
-        'Button17
-        '
-        Me.Button17.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button17.Location = New System.Drawing.Point(90, 19)
-        Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(43, 29)
-        Me.Button17.TabIndex = 31
-        Me.Button17.Text = "3202"
-        Me.Button17.UseVisualStyleBackColor = False
-        '
-        'Button18
-        '
-        Me.Button18.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button18.Location = New System.Drawing.Point(335, 73)
-        Me.Button18.Name = "Button18"
-        Me.Button18.Size = New System.Drawing.Size(43, 29)
-        Me.Button18.TabIndex = 30
-        Me.Button18.Text = "4502"
-        Me.Button18.UseVisualStyleBackColor = False
-        '
-        'Button32
-        '
-        Me.Button32.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button32.Location = New System.Drawing.Point(41, 19)
-        Me.Button32.Name = "Button32"
-        Me.Button32.Size = New System.Drawing.Size(43, 29)
-        Me.Button32.TabIndex = 16
-        Me.Button32.Text = "3102"
-        Me.Button32.UseVisualStyleBackColor = False
-        '
-        'Button30
-        '
-        Me.Button30.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button30.Location = New System.Drawing.Point(139, 19)
-        Me.Button30.Name = "Button30"
-        Me.Button30.Size = New System.Drawing.Size(43, 29)
-        Me.Button30.TabIndex = 18
-        Me.Button30.Text = "3302"
-        Me.Button30.UseVisualStyleBackColor = False
-        '
-        'Button29
-        '
-        Me.Button29.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button29.Location = New System.Drawing.Point(188, 19)
-        Me.Button29.Name = "Button29"
-        Me.Button29.Size = New System.Drawing.Size(43, 29)
-        Me.Button29.TabIndex = 19
-        Me.Button29.Text = "3402"
-        Me.Button29.UseVisualStyleBackColor = False
-        '
-        'Button22
-        '
-        Me.Button22.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button22.Location = New System.Drawing.Point(139, 73)
-        Me.Button22.Name = "Button22"
-        Me.Button22.Size = New System.Drawing.Size(43, 29)
-        Me.Button22.TabIndex = 26
-        Me.Button22.Text = "4102"
-        Me.Button22.UseVisualStyleBackColor = False
-        '
-        'Button26
-        '
-        Me.Button26.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button26.Location = New System.Drawing.Point(335, 19)
-        Me.Button26.Name = "Button26"
-        Me.Button26.Size = New System.Drawing.Size(43, 29)
-        Me.Button26.TabIndex = 22
-        Me.Button26.Text = "3702"
-        Me.Button26.UseVisualStyleBackColor = False
-        '
-        'Button24
-        '
-        Me.Button24.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button24.Location = New System.Drawing.Point(41, 73)
-        Me.Button24.Name = "Button24"
-        Me.Button24.Size = New System.Drawing.Size(43, 29)
-        Me.Button24.TabIndex = 24
-        Me.Button24.Text = "3902"
-        Me.Button24.UseVisualStyleBackColor = False
-        '
-        'Button25
-        '
-        Me.Button25.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button25.Location = New System.Drawing.Point(384, 19)
-        Me.Button25.Name = "Button25"
-        Me.Button25.Size = New System.Drawing.Size(43, 29)
-        Me.Button25.TabIndex = 23
-        Me.Button25.Text = "3802"
-        Me.Button25.UseVisualStyleBackColor = False
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.Button15)
-        Me.GroupBox1.Controls.Add(Me.Button14)
-        Me.GroupBox1.Controls.Add(Me.Button13)
-        Me.GroupBox1.Controls.Add(Me.Button9)
-        Me.GroupBox1.Controls.Add(Me.Button8)
-        Me.GroupBox1.Controls.Add(Me.Button6)
-        Me.GroupBox1.Controls.Add(Me.Button10)
-        Me.GroupBox1.Controls.Add(Me.Button11)
-        Me.GroupBox1.Controls.Add(Me.Button12)
-        Me.GroupBox1.Controls.Add(Me.Button16)
-        Me.GroupBox1.Controls.Add(Me.Button7)
-        Me.GroupBox1.Controls.Add(Me.Button5)
-        Me.GroupBox1.Controls.Add(Me.Button4)
-        Me.GroupBox1.Controls.Add(Me.Button3)
-        Me.GroupBox1.Controls.Add(Me.Button2)
-        Me.GroupBox1.Controls.Add(Me.Button1)
-        Me.GroupBox1.Location = New System.Drawing.Point(90, 54)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(457, 135)
-        Me.GroupBox1.TabIndex = 2
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Kamar Ekonomi"
-        '
-        'Button15
-        '
-        Me.Button15.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button15.Location = New System.Drawing.Point(381, 73)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(43, 29)
-        Me.Button15.TabIndex = 20
-        Me.Button15.Text = "2701"
-        Me.Button15.UseVisualStyleBackColor = False
-        '
-        'Button14
-        '
-        Me.Button14.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button14.Location = New System.Drawing.Point(186, 73)
-        Me.Button14.Name = "Button14"
-        Me.Button14.Size = New System.Drawing.Size(43, 29)
-        Me.Button14.TabIndex = 19
-        Me.Button14.Text = "2301"
-        Me.Button14.UseVisualStyleBackColor = False
-        '
-        'Button13
-        '
-        Me.Button13.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button13.Location = New System.Drawing.Point(137, 73)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(43, 29)
-        Me.Button13.TabIndex = 18
-        Me.Button13.Text = "2201"
-        Me.Button13.UseVisualStyleBackColor = False
-        '
-        'Button9
-        '
-        Me.Button9.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button9.Location = New System.Drawing.Point(88, 73)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(43, 29)
-        Me.Button9.TabIndex = 17
-        Me.Button9.Text = "2101"
-        Me.Button9.UseVisualStyleBackColor = False
-        '
-        'Button8
-        '
-        Me.Button8.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button8.Location = New System.Drawing.Point(382, 19)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(43, 29)
-        Me.Button8.TabIndex = 16
-        Me.Button8.Text = "1901"
-        Me.Button8.UseVisualStyleBackColor = False
-        '
-        'Button6
-        '
-        Me.Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button6.Location = New System.Drawing.Point(284, 19)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(43, 29)
-        Me.Button6.TabIndex = 15
-        Me.Button6.Text = "1701"
-        Me.Button6.UseVisualStyleBackColor = False
-        '
-        'Button10
-        '
-        Me.Button10.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button10.Location = New System.Drawing.Point(332, 73)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(43, 29)
-        Me.Button10.TabIndex = 14
-        Me.Button10.Text = "2601"
-        Me.Button10.UseVisualStyleBackColor = False
-        '
-        'Button11
-        '
-        Me.Button11.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button11.Location = New System.Drawing.Point(284, 73)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(43, 29)
-        Me.Button11.TabIndex = 13
-        Me.Button11.Text = "2501"
-        Me.Button11.UseVisualStyleBackColor = False
-        '
-        'Button12
-        '
-        Me.Button12.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button12.Location = New System.Drawing.Point(235, 73)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(43, 29)
-        Me.Button12.TabIndex = 12
-        Me.Button12.Text = "2401"
-        Me.Button12.UseVisualStyleBackColor = False
-        '
-        'Button16
-        '
-        Me.Button16.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button16.Location = New System.Drawing.Point(39, 73)
-        Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(43, 29)
-        Me.Button16.TabIndex = 8
-        Me.Button16.Text = "2001"
-        Me.Button16.UseVisualStyleBackColor = False
-        '
-        'Button7
-        '
-        Me.Button7.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button7.Location = New System.Drawing.Point(333, 19)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(43, 29)
-        Me.Button7.TabIndex = 6
-        Me.Button7.Text = "1801"
-        Me.Button7.UseVisualStyleBackColor = False
-        '
-        'Button5
-        '
-        Me.Button5.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button5.Location = New System.Drawing.Point(235, 19)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(43, 29)
-        Me.Button5.TabIndex = 4
-        Me.Button5.Text = "1601"
-        Me.Button5.UseVisualStyleBackColor = False
-        '
-        'Button4
-        '
-        Me.Button4.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button4.Location = New System.Drawing.Point(186, 19)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(43, 29)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "1501"
-        Me.Button4.UseVisualStyleBackColor = False
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button3.Location = New System.Drawing.Point(137, 19)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(43, 29)
-        Me.Button3.TabIndex = 2
-        Me.Button3.Text = "1401"
-        Me.Button3.UseVisualStyleBackColor = False
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button2.Location = New System.Drawing.Point(88, 19)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(43, 29)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "1301"
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(38, 19)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(43, 29)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "1201"
-        Me.Button1.UseVisualStyleBackColor = False
+        'gbkamarkhusus
+        '
+        Me.gbkamarkhusus.Controls.Add(Me.btn6503)
+        Me.gbkamarkhusus.Controls.Add(Me.btn6403)
+        Me.gbkamarkhusus.Controls.Add(Me.btn6203)
+        Me.gbkamarkhusus.Controls.Add(Me.btn6103)
+        Me.gbkamarkhusus.Controls.Add(Me.btn5903)
+        Me.gbkamarkhusus.Controls.Add(Me.btn5603)
+        Me.gbkamarkhusus.Controls.Add(Me.btn5703)
+        Me.gbkamarkhusus.Controls.Add(Me.btn5503)
+        Me.gbkamarkhusus.Controls.Add(Me.btn5303)
+        Me.gbkamarkhusus.Controls.Add(Me.btn5203)
+        Me.gbkamarkhusus.Controls.Add(Me.btn6603)
+        Me.gbkamarkhusus.Controls.Add(Me.btn5103)
+        Me.gbkamarkhusus.Controls.Add(Me.btn6303)
+        Me.gbkamarkhusus.Controls.Add(Me.btn5403)
+        Me.gbkamarkhusus.Controls.Add(Me.btn6003)
+        Me.gbkamarkhusus.Controls.Add(Me.btn5803)
+        Me.gbkamarkhusus.Location = New System.Drawing.Point(90, 355)
+        Me.gbkamarkhusus.Name = "gbkamarkhusus"
+        Me.gbkamarkhusus.Size = New System.Drawing.Size(457, 135)
+        Me.gbkamarkhusus.TabIndex = 0
+        Me.gbkamarkhusus.TabStop = False
+        Me.gbkamarkhusus.Text = "Kamar Khusus"
+        '
+        'btn6503
+        '
+        Me.btn6503.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn6503.Location = New System.Drawing.Point(333, 83)
+        Me.btn6503.Name = "btn6503"
+        Me.btn6503.Size = New System.Drawing.Size(43, 29)
+        Me.btn6503.TabIndex = 15
+        Me.btn6503.Text = "6503"
+        Me.btn6503.UseVisualStyleBackColor = False
+        '
+        'btn6403
+        '
+        Me.btn6403.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn6403.Location = New System.Drawing.Point(284, 83)
+        Me.btn6403.Name = "btn6403"
+        Me.btn6403.Size = New System.Drawing.Size(43, 29)
+        Me.btn6403.TabIndex = 14
+        Me.btn6403.Text = "6403"
+        Me.btn6403.UseVisualStyleBackColor = False
+        '
+        'btn6203
+        '
+        Me.btn6203.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn6203.Location = New System.Drawing.Point(186, 83)
+        Me.btn6203.Name = "btn6203"
+        Me.btn6203.Size = New System.Drawing.Size(43, 29)
+        Me.btn6203.TabIndex = 12
+        Me.btn6203.Text = "6203"
+        Me.btn6203.UseVisualStyleBackColor = False
+        '
+        'btn6103
+        '
+        Me.btn6103.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn6103.Location = New System.Drawing.Point(137, 83)
+        Me.btn6103.Name = "btn6103"
+        Me.btn6103.Size = New System.Drawing.Size(43, 29)
+        Me.btn6103.TabIndex = 11
+        Me.btn6103.Text = "6103"
+        Me.btn6103.UseVisualStyleBackColor = False
+        '
+        'btn5903
+        '
+        Me.btn5903.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn5903.Location = New System.Drawing.Point(39, 83)
+        Me.btn5903.Name = "btn5903"
+        Me.btn5903.Size = New System.Drawing.Size(43, 29)
+        Me.btn5903.TabIndex = 9
+        Me.btn5903.Text = "5903"
+        Me.btn5903.UseVisualStyleBackColor = False
+        '
+        'btn5603
+        '
+        Me.btn5603.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn5603.Location = New System.Drawing.Point(284, 29)
+        Me.btn5603.Name = "btn5603"
+        Me.btn5603.Size = New System.Drawing.Size(43, 29)
+        Me.btn5603.TabIndex = 6
+        Me.btn5603.Text = "5603"
+        Me.btn5603.UseVisualStyleBackColor = False
+        '
+        'btn5703
+        '
+        Me.btn5703.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn5703.Location = New System.Drawing.Point(332, 29)
+        Me.btn5703.Name = "btn5703"
+        Me.btn5703.Size = New System.Drawing.Size(43, 29)
+        Me.btn5703.TabIndex = 7
+        Me.btn5703.Text = "5703"
+        Me.btn5703.UseVisualStyleBackColor = False
+        '
+        'btn5503
+        '
+        Me.btn5503.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn5503.Location = New System.Drawing.Point(235, 29)
+        Me.btn5503.Name = "btn5503"
+        Me.btn5503.Size = New System.Drawing.Size(43, 29)
+        Me.btn5503.TabIndex = 5
+        Me.btn5503.Text = "5503"
+        Me.btn5503.UseVisualStyleBackColor = False
+        '
+        'btn5303
+        '
+        Me.btn5303.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn5303.Location = New System.Drawing.Point(137, 29)
+        Me.btn5303.Name = "btn5303"
+        Me.btn5303.Size = New System.Drawing.Size(43, 29)
+        Me.btn5303.TabIndex = 3
+        Me.btn5303.Text = "5303"
+        Me.btn5303.UseVisualStyleBackColor = False
+        '
+        'btn5203
+        '
+        Me.btn5203.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn5203.Location = New System.Drawing.Point(88, 29)
+        Me.btn5203.Name = "btn5203"
+        Me.btn5203.Size = New System.Drawing.Size(43, 29)
+        Me.btn5203.TabIndex = 2
+        Me.btn5203.Text = "5203"
+        Me.btn5203.UseVisualStyleBackColor = False
+        '
+        'btn6603
+        '
+        Me.btn6603.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn6603.Location = New System.Drawing.Point(382, 83)
+        Me.btn6603.Name = "btn6603"
+        Me.btn6603.Size = New System.Drawing.Size(43, 29)
+        Me.btn6603.TabIndex = 16
+        Me.btn6603.Text = "6603"
+        Me.btn6603.UseVisualStyleBackColor = False
+        '
+        'btn5103
+        '
+        Me.btn5103.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn5103.Location = New System.Drawing.Point(39, 29)
+        Me.btn5103.Name = "btn5103"
+        Me.btn5103.Size = New System.Drawing.Size(43, 29)
+        Me.btn5103.TabIndex = 1
+        Me.btn5103.Text = "5103"
+        Me.btn5103.UseVisualStyleBackColor = False
+        '
+        'btn6303
+        '
+        Me.btn6303.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn6303.Location = New System.Drawing.Point(235, 83)
+        Me.btn6303.Name = "btn6303"
+        Me.btn6303.Size = New System.Drawing.Size(43, 29)
+        Me.btn6303.TabIndex = 13
+        Me.btn6303.Text = "6303"
+        Me.btn6303.UseVisualStyleBackColor = False
+        '
+        'btn5403
+        '
+        Me.btn5403.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn5403.Location = New System.Drawing.Point(186, 29)
+        Me.btn5403.Name = "btn5403"
+        Me.btn5403.Size = New System.Drawing.Size(43, 29)
+        Me.btn5403.TabIndex = 4
+        Me.btn5403.Text = "5403"
+        Me.btn5403.UseVisualStyleBackColor = False
+        '
+        'btn6003
+        '
+        Me.btn6003.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn6003.Location = New System.Drawing.Point(88, 83)
+        Me.btn6003.Name = "btn6003"
+        Me.btn6003.Size = New System.Drawing.Size(43, 29)
+        Me.btn6003.TabIndex = 10
+        Me.btn6003.Text = "6003"
+        Me.btn6003.UseVisualStyleBackColor = False
+        '
+        'btn5803
+        '
+        Me.btn5803.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn5803.Location = New System.Drawing.Point(382, 29)
+        Me.btn5803.Name = "btn5803"
+        Me.btn5803.Size = New System.Drawing.Size(43, 29)
+        Me.btn5803.TabIndex = 8
+        Me.btn5803.Text = "5803"
+        Me.btn5803.UseVisualStyleBackColor = False
+        '
+        'gbkamarpremium
+        '
+        Me.gbkamarpremium.Controls.Add(Me.btn4402)
+        Me.gbkamarpremium.Controls.Add(Me.btn4602)
+        Me.gbkamarpremium.Controls.Add(Me.btn4302)
+        Me.gbkamarpremium.Controls.Add(Me.btn4202)
+        Me.gbkamarpremium.Controls.Add(Me.btn4002)
+        Me.gbkamarpremium.Controls.Add(Me.btn3602)
+        Me.gbkamarpremium.Controls.Add(Me.btn3502)
+        Me.gbkamarpremium.Controls.Add(Me.btn3202)
+        Me.gbkamarpremium.Controls.Add(Me.btn4502)
+        Me.gbkamarpremium.Controls.Add(Me.btn3102)
+        Me.gbkamarpremium.Controls.Add(Me.btn3302)
+        Me.gbkamarpremium.Controls.Add(Me.btn3402)
+        Me.gbkamarpremium.Controls.Add(Me.btn4102)
+        Me.gbkamarpremium.Controls.Add(Me.btn3702)
+        Me.gbkamarpremium.Controls.Add(Me.btn3902)
+        Me.gbkamarpremium.Controls.Add(Me.btn3802)
+        Me.gbkamarpremium.Location = New System.Drawing.Point(88, 204)
+        Me.gbkamarpremium.Name = "gbkamarpremium"
+        Me.gbkamarpremium.Size = New System.Drawing.Size(459, 135)
+        Me.gbkamarpremium.TabIndex = 0
+        Me.gbkamarpremium.TabStop = False
+        Me.gbkamarpremium.Text = "Kamar Premium"
+        '
+        'btn4402
+        '
+        Me.btn4402.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn4402.Location = New System.Drawing.Point(286, 73)
+        Me.btn4402.Name = "btn4402"
+        Me.btn4402.Size = New System.Drawing.Size(43, 29)
+        Me.btn4402.TabIndex = 14
+        Me.btn4402.Text = "4402"
+        Me.btn4402.UseVisualStyleBackColor = False
+        '
+        'btn4602
+        '
+        Me.btn4602.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn4602.Location = New System.Drawing.Point(383, 73)
+        Me.btn4602.Name = "btn4602"
+        Me.btn4602.Size = New System.Drawing.Size(43, 29)
+        Me.btn4602.TabIndex = 16
+        Me.btn4602.Text = "4602"
+        Me.btn4602.UseVisualStyleBackColor = False
+        '
+        'btn4302
+        '
+        Me.btn4302.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn4302.Location = New System.Drawing.Point(237, 73)
+        Me.btn4302.Name = "btn4302"
+        Me.btn4302.Size = New System.Drawing.Size(43, 29)
+        Me.btn4302.TabIndex = 13
+        Me.btn4302.Text = "4302"
+        Me.btn4302.UseVisualStyleBackColor = False
+        '
+        'btn4202
+        '
+        Me.btn4202.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn4202.Location = New System.Drawing.Point(188, 73)
+        Me.btn4202.Name = "btn4202"
+        Me.btn4202.Size = New System.Drawing.Size(43, 29)
+        Me.btn4202.TabIndex = 12
+        Me.btn4202.Text = "4202"
+        Me.btn4202.UseVisualStyleBackColor = False
+        '
+        'btn4002
+        '
+        Me.btn4002.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn4002.Location = New System.Drawing.Point(90, 73)
+        Me.btn4002.Name = "btn4002"
+        Me.btn4002.Size = New System.Drawing.Size(43, 29)
+        Me.btn4002.TabIndex = 10
+        Me.btn4002.Text = "4002"
+        Me.btn4002.UseVisualStyleBackColor = False
+        '
+        'btn3602
+        '
+        Me.btn3602.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn3602.Location = New System.Drawing.Point(286, 19)
+        Me.btn3602.Name = "btn3602"
+        Me.btn3602.Size = New System.Drawing.Size(43, 29)
+        Me.btn3602.TabIndex = 6
+        Me.btn3602.Text = "3602"
+        Me.btn3602.UseVisualStyleBackColor = False
+        '
+        'btn3502
+        '
+        Me.btn3502.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn3502.Location = New System.Drawing.Point(237, 19)
+        Me.btn3502.Name = "btn3502"
+        Me.btn3502.Size = New System.Drawing.Size(43, 29)
+        Me.btn3502.TabIndex = 5
+        Me.btn3502.Text = "3502"
+        Me.btn3502.UseVisualStyleBackColor = False
+        '
+        'btn3202
+        '
+        Me.btn3202.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn3202.Location = New System.Drawing.Point(90, 19)
+        Me.btn3202.Name = "btn3202"
+        Me.btn3202.Size = New System.Drawing.Size(43, 29)
+        Me.btn3202.TabIndex = 2
+        Me.btn3202.Text = "3202"
+        Me.btn3202.UseVisualStyleBackColor = False
+        '
+        'btn4502
+        '
+        Me.btn4502.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn4502.Location = New System.Drawing.Point(335, 73)
+        Me.btn4502.Name = "btn4502"
+        Me.btn4502.Size = New System.Drawing.Size(43, 29)
+        Me.btn4502.TabIndex = 15
+        Me.btn4502.Text = "4502"
+        Me.btn4502.UseVisualStyleBackColor = False
+        '
+        'btn3102
+        '
+        Me.btn3102.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn3102.Location = New System.Drawing.Point(41, 19)
+        Me.btn3102.Name = "btn3102"
+        Me.btn3102.Size = New System.Drawing.Size(43, 29)
+        Me.btn3102.TabIndex = 1
+        Me.btn3102.Text = "3102"
+        Me.btn3102.UseVisualStyleBackColor = False
+        '
+        'btn3302
+        '
+        Me.btn3302.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn3302.Location = New System.Drawing.Point(139, 19)
+        Me.btn3302.Name = "btn3302"
+        Me.btn3302.Size = New System.Drawing.Size(43, 29)
+        Me.btn3302.TabIndex = 3
+        Me.btn3302.Text = "3302"
+        Me.btn3302.UseVisualStyleBackColor = False
+        '
+        'btn3402
+        '
+        Me.btn3402.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn3402.Location = New System.Drawing.Point(188, 19)
+        Me.btn3402.Name = "btn3402"
+        Me.btn3402.Size = New System.Drawing.Size(43, 29)
+        Me.btn3402.TabIndex = 4
+        Me.btn3402.Text = "3402"
+        Me.btn3402.UseVisualStyleBackColor = False
+        '
+        'btn4102
+        '
+        Me.btn4102.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn4102.Location = New System.Drawing.Point(139, 73)
+        Me.btn4102.Name = "btn4102"
+        Me.btn4102.Size = New System.Drawing.Size(43, 29)
+        Me.btn4102.TabIndex = 11
+        Me.btn4102.Text = "4102"
+        Me.btn4102.UseVisualStyleBackColor = False
+        '
+        'btn3702
+        '
+        Me.btn3702.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn3702.Location = New System.Drawing.Point(335, 19)
+        Me.btn3702.Name = "btn3702"
+        Me.btn3702.Size = New System.Drawing.Size(43, 29)
+        Me.btn3702.TabIndex = 7
+        Me.btn3702.Text = "3702"
+        Me.btn3702.UseVisualStyleBackColor = False
+        '
+        'btn3902
+        '
+        Me.btn3902.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn3902.Location = New System.Drawing.Point(41, 73)
+        Me.btn3902.Name = "btn3902"
+        Me.btn3902.Size = New System.Drawing.Size(43, 29)
+        Me.btn3902.TabIndex = 9
+        Me.btn3902.Text = "3902"
+        Me.btn3902.UseVisualStyleBackColor = False
+        '
+        'btn3802
+        '
+        Me.btn3802.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn3802.Location = New System.Drawing.Point(384, 19)
+        Me.btn3802.Name = "btn3802"
+        Me.btn3802.Size = New System.Drawing.Size(43, 29)
+        Me.btn3802.TabIndex = 8
+        Me.btn3802.Text = "3802"
+        Me.btn3802.UseVisualStyleBackColor = False
+        '
+        'gbkamarekonomi
+        '
+        Me.gbkamarekonomi.Controls.Add(Me.btn2701)
+        Me.gbkamarekonomi.Controls.Add(Me.Bbtn2301)
+        Me.gbkamarekonomi.Controls.Add(Me.btn2201)
+        Me.gbkamarekonomi.Controls.Add(Me.btn2101)
+        Me.gbkamarekonomi.Controls.Add(Me.btn1901)
+        Me.gbkamarekonomi.Controls.Add(Me.btn1701)
+        Me.gbkamarekonomi.Controls.Add(Me.btn2601)
+        Me.gbkamarekonomi.Controls.Add(Me.btn2501)
+        Me.gbkamarekonomi.Controls.Add(Me.btn2401)
+        Me.gbkamarekonomi.Controls.Add(Me.btn2001)
+        Me.gbkamarekonomi.Controls.Add(Me.btn1801)
+        Me.gbkamarekonomi.Controls.Add(Me.btn1601)
+        Me.gbkamarekonomi.Controls.Add(Me.btn1501)
+        Me.gbkamarekonomi.Controls.Add(Me.btn1401)
+        Me.gbkamarekonomi.Controls.Add(Me.btn1301)
+        Me.gbkamarekonomi.Controls.Add(Me.btn1201)
+        Me.gbkamarekonomi.Location = New System.Drawing.Point(90, 54)
+        Me.gbkamarekonomi.Name = "gbkamarekonomi"
+        Me.gbkamarekonomi.Size = New System.Drawing.Size(457, 135)
+        Me.gbkamarekonomi.TabIndex = 0
+        Me.gbkamarekonomi.TabStop = False
+        Me.gbkamarekonomi.Text = "Kamar Ekonomi"
+        '
+        'btn2701
+        '
+        Me.btn2701.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn2701.Location = New System.Drawing.Point(381, 73)
+        Me.btn2701.Name = "btn2701"
+        Me.btn2701.Size = New System.Drawing.Size(43, 29)
+        Me.btn2701.TabIndex = 15
+        Me.btn2701.Text = "2701"
+        Me.btn2701.UseVisualStyleBackColor = False
+        '
+        'Bbtn2301
+        '
+        Me.Bbtn2301.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Bbtn2301.Location = New System.Drawing.Point(186, 73)
+        Me.Bbtn2301.Name = "Bbtn2301"
+        Me.Bbtn2301.Size = New System.Drawing.Size(43, 29)
+        Me.Bbtn2301.TabIndex = 19
+        Me.Bbtn2301.Text = "2301"
+        Me.Bbtn2301.UseVisualStyleBackColor = False
+        '
+        'btn2201
+        '
+        Me.btn2201.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn2201.Location = New System.Drawing.Point(137, 73)
+        Me.btn2201.Name = "btn2201"
+        Me.btn2201.Size = New System.Drawing.Size(43, 29)
+        Me.btn2201.TabIndex = 18
+        Me.btn2201.Text = "2201"
+        Me.btn2201.UseVisualStyleBackColor = False
+        '
+        'btn2101
+        '
+        Me.btn2101.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn2101.Location = New System.Drawing.Point(88, 73)
+        Me.btn2101.Name = "btn2101"
+        Me.btn2101.Size = New System.Drawing.Size(43, 29)
+        Me.btn2101.TabIndex = 17
+        Me.btn2101.Text = "2101"
+        Me.btn2101.UseVisualStyleBackColor = False
+        '
+        'btn1901
+        '
+        Me.btn1901.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn1901.Location = New System.Drawing.Point(382, 19)
+        Me.btn1901.Name = "btn1901"
+        Me.btn1901.Size = New System.Drawing.Size(43, 29)
+        Me.btn1901.TabIndex = 16
+        Me.btn1901.Text = "1901"
+        Me.btn1901.UseVisualStyleBackColor = False
+        '
+        'btn1701
+        '
+        Me.btn1701.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn1701.Location = New System.Drawing.Point(284, 19)
+        Me.btn1701.Name = "btn1701"
+        Me.btn1701.Size = New System.Drawing.Size(43, 29)
+        Me.btn1701.TabIndex = 15
+        Me.btn1701.Text = "1701"
+        Me.btn1701.UseVisualStyleBackColor = False
+        '
+        'btn2601
+        '
+        Me.btn2601.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn2601.Location = New System.Drawing.Point(332, 73)
+        Me.btn2601.Name = "btn2601"
+        Me.btn2601.Size = New System.Drawing.Size(43, 29)
+        Me.btn2601.TabIndex = 14
+        Me.btn2601.Text = "2601"
+        Me.btn2601.UseVisualStyleBackColor = False
+        '
+        'btn2501
+        '
+        Me.btn2501.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn2501.Location = New System.Drawing.Point(284, 73)
+        Me.btn2501.Name = "btn2501"
+        Me.btn2501.Size = New System.Drawing.Size(43, 29)
+        Me.btn2501.TabIndex = 13
+        Me.btn2501.Text = "2501"
+        Me.btn2501.UseVisualStyleBackColor = False
+        '
+        'btn2401
+        '
+        Me.btn2401.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn2401.Location = New System.Drawing.Point(235, 73)
+        Me.btn2401.Name = "btn2401"
+        Me.btn2401.Size = New System.Drawing.Size(43, 29)
+        Me.btn2401.TabIndex = 12
+        Me.btn2401.Text = "2401"
+        Me.btn2401.UseVisualStyleBackColor = False
+        '
+        'btn2001
+        '
+        Me.btn2001.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn2001.Location = New System.Drawing.Point(39, 73)
+        Me.btn2001.Name = "btn2001"
+        Me.btn2001.Size = New System.Drawing.Size(43, 29)
+        Me.btn2001.TabIndex = 8
+        Me.btn2001.Text = "2001"
+        Me.btn2001.UseVisualStyleBackColor = False
+        '
+        'btn1801
+        '
+        Me.btn1801.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn1801.Location = New System.Drawing.Point(333, 19)
+        Me.btn1801.Name = "btn1801"
+        Me.btn1801.Size = New System.Drawing.Size(43, 29)
+        Me.btn1801.TabIndex = 6
+        Me.btn1801.Text = "1801"
+        Me.btn1801.UseVisualStyleBackColor = False
+        '
+        'btn1601
+        '
+        Me.btn1601.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn1601.Location = New System.Drawing.Point(235, 19)
+        Me.btn1601.Name = "btn1601"
+        Me.btn1601.Size = New System.Drawing.Size(43, 29)
+        Me.btn1601.TabIndex = 4
+        Me.btn1601.Text = "1601"
+        Me.btn1601.UseVisualStyleBackColor = False
+        '
+        'btn1501
+        '
+        Me.btn1501.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn1501.Location = New System.Drawing.Point(186, 19)
+        Me.btn1501.Name = "btn1501"
+        Me.btn1501.Size = New System.Drawing.Size(43, 29)
+        Me.btn1501.TabIndex = 3
+        Me.btn1501.Text = "1501"
+        Me.btn1501.UseVisualStyleBackColor = False
+        '
+        'btn1401
+        '
+        Me.btn1401.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn1401.Location = New System.Drawing.Point(137, 19)
+        Me.btn1401.Name = "btn1401"
+        Me.btn1401.Size = New System.Drawing.Size(43, 29)
+        Me.btn1401.TabIndex = 2
+        Me.btn1401.Text = "1401"
+        Me.btn1401.UseVisualStyleBackColor = False
+        '
+        'btn1301
+        '
+        Me.btn1301.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn1301.Location = New System.Drawing.Point(88, 19)
+        Me.btn1301.Name = "btn1301"
+        Me.btn1301.Size = New System.Drawing.Size(43, 29)
+        Me.btn1301.TabIndex = 1
+        Me.btn1301.Text = "1301"
+        Me.btn1301.UseVisualStyleBackColor = False
+        '
+        'btn1201
+        '
+        Me.btn1201.BackColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.btn1201.Location = New System.Drawing.Point(38, 19)
+        Me.btn1201.Name = "btn1201"
+        Me.btn1201.Size = New System.Drawing.Size(43, 29)
+        Me.btn1201.TabIndex = 0
+        Me.btn1201.Text = "1201"
+        Me.btn1201.UseVisualStyleBackColor = False
         '
         'lblJenisKamar
         '
@@ -651,70 +651,70 @@ Partial Class FormNoKamar
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(635, 545)
         Me.Controls.Add(Me.lblJenisKamar)
-        Me.Controls.Add(Me.GroupBox3)
-        Me.Controls.Add(Me.GroupBox2)
-        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.gbkamarkhusus)
+        Me.Controls.Add(Me.gbkamarpremium)
+        Me.Controls.Add(Me.gbkamarekonomi)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "FormNoKamar"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form No Kamar"
-        Me.GroupBox3.ResumeLayout(False)
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox1.ResumeLayout(False)
+        Me.gbkamarkhusus.ResumeLayout(False)
+        Me.gbkamarpremium.ResumeLayout(False)
+        Me.gbkamarekonomi.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
-    Friend WithEvents Button33 As System.Windows.Forms.Button
-    Friend WithEvents Button48 As System.Windows.Forms.Button
-    Friend WithEvents Button36 As System.Windows.Forms.Button
-    Friend WithEvents Button45 As System.Windows.Forms.Button
-    Friend WithEvents Button39 As System.Windows.Forms.Button
-    Friend WithEvents Button41 As System.Windows.Forms.Button
-    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
-    Friend WithEvents Button18 As System.Windows.Forms.Button
-    Friend WithEvents Button32 As System.Windows.Forms.Button
-    Friend WithEvents Button30 As System.Windows.Forms.Button
-    Friend WithEvents Button29 As System.Windows.Forms.Button
-    Friend WithEvents Button22 As System.Windows.Forms.Button
-    Friend WithEvents Button26 As System.Windows.Forms.Button
-    Friend WithEvents Button24 As System.Windows.Forms.Button
-    Friend WithEvents Button25 As System.Windows.Forms.Button
-    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
-    Friend WithEvents Button10 As System.Windows.Forms.Button
-    Friend WithEvents Button11 As System.Windows.Forms.Button
-    Friend WithEvents Button12 As System.Windows.Forms.Button
-    Friend WithEvents Button16 As System.Windows.Forms.Button
-    Friend WithEvents Button7 As System.Windows.Forms.Button
-    Friend WithEvents Button5 As System.Windows.Forms.Button
-    Friend WithEvents Button4 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button46 As System.Windows.Forms.Button
-    Friend WithEvents Button44 As System.Windows.Forms.Button
-    Friend WithEvents Button43 As System.Windows.Forms.Button
-    Friend WithEvents Button42 As System.Windows.Forms.Button
-    Friend WithEvents Button40 As System.Windows.Forms.Button
-    Friend WithEvents Button38 As System.Windows.Forms.Button
-    Friend WithEvents Button37 As System.Windows.Forms.Button
-    Friend WithEvents Button35 As System.Windows.Forms.Button
-    Friend WithEvents Button34 As System.Windows.Forms.Button
-    Friend WithEvents Button49 As System.Windows.Forms.Button
-    Friend WithEvents Button31 As System.Windows.Forms.Button
-    Friend WithEvents Button28 As System.Windows.Forms.Button
-    Friend WithEvents Button27 As System.Windows.Forms.Button
-    Friend WithEvents Button23 As System.Windows.Forms.Button
-    Friend WithEvents Button21 As System.Windows.Forms.Button
-    Friend WithEvents Button20 As System.Windows.Forms.Button
-    Friend WithEvents Button19 As System.Windows.Forms.Button
-    Friend WithEvents Button17 As System.Windows.Forms.Button
-    Friend WithEvents Button15 As System.Windows.Forms.Button
-    Friend WithEvents Button14 As System.Windows.Forms.Button
-    Friend WithEvents Button13 As System.Windows.Forms.Button
-    Friend WithEvents Button9 As System.Windows.Forms.Button
-    Friend WithEvents Button8 As System.Windows.Forms.Button
-    Friend WithEvents Button6 As System.Windows.Forms.Button
+    Friend WithEvents gbkamarkhusus As System.Windows.Forms.GroupBox
+    Friend WithEvents btn6603 As System.Windows.Forms.Button
+    Friend WithEvents btn5103 As System.Windows.Forms.Button
+    Friend WithEvents btn6303 As System.Windows.Forms.Button
+    Friend WithEvents btn5403 As System.Windows.Forms.Button
+    Friend WithEvents btn6003 As System.Windows.Forms.Button
+    Friend WithEvents btn5803 As System.Windows.Forms.Button
+    Friend WithEvents gbkamarpremium As System.Windows.Forms.GroupBox
+    Friend WithEvents btn4502 As System.Windows.Forms.Button
+    Friend WithEvents btn3102 As System.Windows.Forms.Button
+    Friend WithEvents btn3302 As System.Windows.Forms.Button
+    Friend WithEvents btn3402 As System.Windows.Forms.Button
+    Friend WithEvents btn4102 As System.Windows.Forms.Button
+    Friend WithEvents btn3702 As System.Windows.Forms.Button
+    Friend WithEvents btn3902 As System.Windows.Forms.Button
+    Friend WithEvents btn3802 As System.Windows.Forms.Button
+    Friend WithEvents gbkamarekonomi As System.Windows.Forms.GroupBox
+    Friend WithEvents btn2601 As System.Windows.Forms.Button
+    Friend WithEvents btn2501 As System.Windows.Forms.Button
+    Friend WithEvents btn2401 As System.Windows.Forms.Button
+    Friend WithEvents btn2001 As System.Windows.Forms.Button
+    Friend WithEvents btn1801 As System.Windows.Forms.Button
+    Friend WithEvents btn1601 As System.Windows.Forms.Button
+    Friend WithEvents btn1501 As System.Windows.Forms.Button
+    Friend WithEvents btn1401 As System.Windows.Forms.Button
+    Friend WithEvents btn1301 As System.Windows.Forms.Button
+    Friend WithEvents btn1201 As System.Windows.Forms.Button
+    Friend WithEvents btn6503 As System.Windows.Forms.Button
+    Friend WithEvents btn6403 As System.Windows.Forms.Button
+    Friend WithEvents btn6203 As System.Windows.Forms.Button
+    Friend WithEvents btn6103 As System.Windows.Forms.Button
+    Friend WithEvents btn5903 As System.Windows.Forms.Button
+    Friend WithEvents btn5603 As System.Windows.Forms.Button
+    Friend WithEvents btn5703 As System.Windows.Forms.Button
+    Friend WithEvents btn5503 As System.Windows.Forms.Button
+    Friend WithEvents btn5303 As System.Windows.Forms.Button
+    Friend WithEvents btn5203 As System.Windows.Forms.Button
+    Friend WithEvents btn4402 As System.Windows.Forms.Button
+    Friend WithEvents btn4602 As System.Windows.Forms.Button
+    Friend WithEvents btn4302 As System.Windows.Forms.Button
+    Friend WithEvents btn4202 As System.Windows.Forms.Button
+    Friend WithEvents btn4002 As System.Windows.Forms.Button
+    Friend WithEvents btn3602 As System.Windows.Forms.Button
+    Friend WithEvents btn3502 As System.Windows.Forms.Button
+    Friend WithEvents btn3202 As System.Windows.Forms.Button
+    Friend WithEvents btn2701 As System.Windows.Forms.Button
+    Friend WithEvents Bbtn2301 As System.Windows.Forms.Button
+    Friend WithEvents btn2201 As System.Windows.Forms.Button
+    Friend WithEvents btn2101 As System.Windows.Forms.Button
+    Friend WithEvents btn1901 As System.Windows.Forms.Button
+    Friend WithEvents btn1701 As System.Windows.Forms.Button
     Friend WithEvents lblJenisKamar As System.Windows.Forms.Label
 End Class

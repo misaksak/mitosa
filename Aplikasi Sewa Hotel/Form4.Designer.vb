@@ -25,7 +25,7 @@ Partial Class FormPemesanan
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormPemesanan))
         Me.Label15 = New System.Windows.Forms.Label()
         Me.lblpesan = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btnpesan = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.CheckBox3 = New System.Windows.Forms.CheckBox()
@@ -34,7 +34,6 @@ Partial Class FormPemesanan
         Me.cbKartu = New System.Windows.Forms.ComboBox()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.cbjumlahkamar = New System.Windows.Forms.ComboBox()
-        Me.txttanggalcek = New System.Windows.Forms.TextBox()
         Me.rbkeredit = New System.Windows.Forms.RadioButton()
         Me.rbtunai = New System.Windows.Forms.RadioButton()
         Me.rbperempuan = New System.Windows.Forms.RadioButton()
@@ -57,8 +56,12 @@ Partial Class FormPemesanan
         Me.lblkartu = New System.Windows.Forms.Label()
         Me.lblpemesanan = New System.Windows.Forms.Label()
         Me.lnkkembali = New System.Windows.Forms.LinkLabel()
+        Me.cbtanggal = New System.Windows.Forms.NumericUpDown()
+        Me.cbbulan = New System.Windows.Forms.ComboBox()
+        Me.cbtahun = New System.Windows.Forms.ComboBox()
         Me.GroupBox1.SuspendLayout()
         Me.Panel1.SuspendLayout()
+        CType(Me.cbtanggal, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label15
@@ -85,24 +88,26 @@ Partial Class FormPemesanan
         Me.lblpesan.TabIndex = 43
         Me.lblpesan.Text = "Pemesanan"
         '
-        'Button1
+        'btnpesan
         '
-        Me.Button1.Location = New System.Drawing.Point(452, 550)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(113, 26)
-        Me.Button1.TabIndex = 42
-        Me.Button1.Text = "Pesan"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnpesan.Location = New System.Drawing.Point(452, 550)
+        Me.btnpesan.Margin = New System.Windows.Forms.Padding(4)
+        Me.btnpesan.Name = "btnpesan"
+        Me.btnpesan.Size = New System.Drawing.Size(113, 26)
+        Me.btnpesan.TabIndex = 42
+        Me.btnpesan.Text = "Pesan"
+        Me.btnpesan.UseVisualStyleBackColor = True
         '
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(50, Byte), Integer), CType(CType(5, Byte), Integer), CType(CType(8, Byte), Integer))
+        Me.GroupBox1.Controls.Add(Me.cbtahun)
+        Me.GroupBox1.Controls.Add(Me.cbbulan)
+        Me.GroupBox1.Controls.Add(Me.cbtanggal)
         Me.GroupBox1.Controls.Add(Me.Panel1)
         Me.GroupBox1.Controls.Add(Me.cbKartu)
         Me.GroupBox1.Controls.Add(Me.DateTimePicker1)
         Me.GroupBox1.Controls.Add(Me.cbjumlahkamar)
-        Me.GroupBox1.Controls.Add(Me.txttanggalcek)
         Me.GroupBox1.Controls.Add(Me.rbkeredit)
         Me.GroupBox1.Controls.Add(Me.rbtunai)
         Me.GroupBox1.Controls.Add(Me.rbperempuan)
@@ -182,7 +187,7 @@ Partial Class FormPemesanan
         Me.cbKartu.Location = New System.Drawing.Point(248, 66)
         Me.cbKartu.Margin = New System.Windows.Forms.Padding(4)
         Me.cbKartu.Name = "cbKartu"
-        Me.cbKartu.Size = New System.Drawing.Size(57, 21)
+        Me.cbKartu.Size = New System.Drawing.Size(64, 21)
         Me.cbKartu.TabIndex = 2
         '
         'DateTimePicker1
@@ -201,14 +206,6 @@ Partial Class FormPemesanan
         Me.cbjumlahkamar.Name = "cbjumlahkamar"
         Me.cbjumlahkamar.Size = New System.Drawing.Size(57, 21)
         Me.cbjumlahkamar.TabIndex = 8
-        '
-        'txttanggalcek
-        '
-        Me.txttanggalcek.Location = New System.Drawing.Point(248, 352)
-        Me.txttanggalcek.Margin = New System.Windows.Forms.Padding(4)
-        Me.txttanggalcek.Name = "txttanggalcek"
-        Me.txttanggalcek.Size = New System.Drawing.Size(116, 20)
-        Me.txttanggalcek.TabIndex = 25
         '
         'rbkeredit
         '
@@ -434,6 +431,32 @@ Partial Class FormPemesanan
         Me.lnkkembali.TabStop = True
         Me.lnkkembali.Text = "Kembali"
         '
+        'cbtanggal
+        '
+        Me.cbtanggal.Location = New System.Drawing.Point(248, 353)
+        Me.cbtanggal.Maximum = New Decimal(New Integer() {31, 0, 0, 0})
+        Me.cbtanggal.Name = "cbtanggal"
+        Me.cbtanggal.Size = New System.Drawing.Size(52, 20)
+        Me.cbtanggal.TabIndex = 11
+        '
+        'cbbulan
+        '
+        Me.cbbulan.FormattingEnabled = True
+        Me.cbbulan.Items.AddRange(New Object() {"Januari", "Februari", "Maret ", "April ", "Mei ", "Juni", "Juli ", "Agustus", "September", "November", "Desember"})
+        Me.cbbulan.Location = New System.Drawing.Point(306, 352)
+        Me.cbbulan.Name = "cbbulan"
+        Me.cbbulan.Size = New System.Drawing.Size(94, 21)
+        Me.cbbulan.TabIndex = 47
+        '
+        'cbtahun
+        '
+        Me.cbtahun.FormattingEnabled = True
+        Me.cbtahun.Items.AddRange(New Object() {"1945", "1946", "1947", "1948", "1949", "1950", "1951", "1952", "1953", "1954", "1955", "1956", "1957", "1958", "1959", "1960"})
+        Me.cbtahun.Location = New System.Drawing.Point(406, 352)
+        Me.cbtahun.Name = "cbtahun"
+        Me.cbtahun.Size = New System.Drawing.Size(59, 21)
+        Me.cbtahun.TabIndex = 48
+        '
         'FormPemesanan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -443,7 +466,7 @@ Partial Class FormPemesanan
         Me.Controls.Add(Me.lnkkembali)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.lblpesan)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnpesan)
         Me.Controls.Add(Me.GroupBox1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "FormPemesanan"
@@ -453,16 +476,16 @@ Partial Class FormPemesanan
         Me.GroupBox1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.cbtanggal, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
     Friend WithEvents Label15 As System.Windows.Forms.Label
     Friend WithEvents lblpesan As System.Windows.Forms.Label
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents btnpesan As System.Windows.Forms.Button
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents cbjumlahkamar As System.Windows.Forms.ComboBox
-    Friend WithEvents txttanggalcek As System.Windows.Forms.TextBox
     Friend WithEvents rbkeredit As System.Windows.Forms.RadioButton
     Friend WithEvents rbtunai As System.Windows.Forms.RadioButton
     Friend WithEvents rbperempuan As System.Windows.Forms.RadioButton
@@ -491,4 +514,7 @@ Partial Class FormPemesanan
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents lnkkembali As System.Windows.Forms.LinkLabel
+    Friend WithEvents cbtahun As System.Windows.Forms.ComboBox
+    Friend WithEvents cbbulan As System.Windows.Forms.ComboBox
+    Friend WithEvents cbtanggal As System.Windows.Forms.NumericUpDown
 End Class

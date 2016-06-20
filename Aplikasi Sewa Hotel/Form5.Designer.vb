@@ -123,7 +123,7 @@ Partial Class Form5
         Me.txttotalPembayaran.Location = New System.Drawing.Point(9, 55)
         Me.txttotalPembayaran.Name = "txttotalPembayaran"
         Me.txttotalPembayaran.Size = New System.Drawing.Size(137, 26)
-        Me.txttotalPembayaran.TabIndex = 19
+        Me.txttotalPembayaran.TabIndex = 1
         '
         'txtPembayaran
         '

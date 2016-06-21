@@ -5,9 +5,21 @@
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnpesan.Click
+        If (txtnama.Text = "") Then
+            MsgBox("Nama Pemesanan Masih Kosong", vbCritical, "Salah")
+            txtnama.Focus()
+        ElseIf (cbKartu.Text = "") Then
+            MsgBox("Kartu Identitas Masih Kosong", vbCritical, "Salah")
+            cbKartu.Focus()
+        ElseIf (txtNoidentitas.Text = "") Then
+            MsgBox("No Identitas Masih Kosong", vbCritical, "Salah")
+            txtNoidentitas.Focus()
+        ElseIf (txtnotelpon.Text = "") Then
+            MsgBox("Tahun Motor Masih Kosong", vbCritical, "Salah")
+            txtnotelpon.Focus()
+        End If
         Text = "Berhasil Memesan Kamar"
         FormPembayaran.Show()
-
 
     End Sub
 

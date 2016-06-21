@@ -307,7 +307,7 @@ Partial Class FormPembayaran
         Me.paneldiskon.Controls.Add(Me.RadioButton10)
         Me.paneldiskon.Location = New System.Drawing.Point(0, 0)
         Me.paneldiskon.Name = "paneldiskon"
-        Me.paneldiskon.Size = New System.Drawing.Size(200, 100)
+        Me.paneldiskon.Size = New System.Drawing.Size(144, 74)
         Me.paneldiskon.TabIndex = 2
         '
         'RadioButton7

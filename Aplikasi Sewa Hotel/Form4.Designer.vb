@@ -199,7 +199,7 @@ Partial Class FormPemesanan
         Me.Panel1.Controls.Add(Me.CheckBox3)
         Me.Panel1.Controls.Add(Me.CheckBox2)
         Me.Panel1.Controls.Add(Me.CheckBox1)
-        Me.Panel1.Location = New System.Drawing.Point(248, 269)
+        Me.Panel1.Location = New System.Drawing.Point(248, 274)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(279, 24)
         Me.Panel1.TabIndex = 45

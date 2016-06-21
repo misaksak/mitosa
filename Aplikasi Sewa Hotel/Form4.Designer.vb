@@ -23,10 +23,13 @@ Partial Class FormPemesanan
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormPemesanan))
-        Me.Label15 = New System.Windows.Forms.Label()
+        Me.lblHotel = New System.Windows.Forms.Label()
         Me.lblpesan = New System.Windows.Forms.Label()
         Me.btnpesan = New System.Windows.Forms.Button()
         Me.GBPemesanan = New System.Windows.Forms.GroupBox()
+        Me.cbbln = New System.Windows.Forms.ComboBox()
+        Me.numtanggal = New System.Windows.Forms.NumericUpDown()
+        Me.cbthn = New System.Windows.Forms.ComboBox()
         Me.cbtahun = New System.Windows.Forms.ComboBox()
         Me.cbbulan = New System.Windows.Forms.ComboBox()
         Me.cbtanggal = New System.Windows.Forms.NumericUpDown()
@@ -58,27 +61,24 @@ Partial Class FormPemesanan
         Me.lblkartu = New System.Windows.Forms.Label()
         Me.lblpemesanan = New System.Windows.Forms.Label()
         Me.lnkkembali = New System.Windows.Forms.LinkLabel()
-        Me.cbthn = New System.Windows.Forms.ComboBox()
-        Me.numtanggal = New System.Windows.Forms.NumericUpDown()
-        Me.cbbln = New System.Windows.Forms.ComboBox()
         Me.GBPemesanan.SuspendLayout()
+        CType(Me.numtanggal, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.cbtanggal, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
-        CType(Me.numtanggal, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Label15
+        'lblHotel
         '
-        Me.Label15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.ForeColor = System.Drawing.Color.Navy
-        Me.Label15.Location = New System.Drawing.Point(169, -4)
-        Me.Label15.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(268, 28)
-        Me.Label15.TabIndex = 0
-        Me.Label15.Text = "HOTEL "
-        Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblHotel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.lblHotel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblHotel.ForeColor = System.Drawing.Color.Navy
+        Me.lblHotel.Location = New System.Drawing.Point(167, 0)
+        Me.lblHotel.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.lblHotel.Name = "lblHotel"
+        Me.lblHotel.Size = New System.Drawing.Size(268, 28)
+        Me.lblHotel.TabIndex = 0
+        Me.lblHotel.Text = "HOTEL "
+        Me.lblHotel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lblpesan
         '
@@ -141,6 +141,32 @@ Partial Class FormPemesanan
         Me.GBPemesanan.Size = New System.Drawing.Size(557, 467)
         Me.GBPemesanan.TabIndex = 0
         Me.GBPemesanan.TabStop = False
+        '
+        'cbbln
+        '
+        Me.cbbln.FormattingEnabled = True
+        Me.cbbln.Items.AddRange(New Object() {"Januari", "Februari", "Maret ", "April ", "Mei ", "Juni", "Juli ", "Agustus", "September", "November", "Desember"})
+        Me.cbbln.Location = New System.Drawing.Point(306, 388)
+        Me.cbbln.Name = "cbbln"
+        Me.cbbln.Size = New System.Drawing.Size(94, 21)
+        Me.cbbln.TabIndex = 17
+        '
+        'numtanggal
+        '
+        Me.numtanggal.Location = New System.Drawing.Point(248, 389)
+        Me.numtanggal.Maximum = New Decimal(New Integer() {31, 0, 0, 0})
+        Me.numtanggal.Name = "numtanggal"
+        Me.numtanggal.Size = New System.Drawing.Size(52, 20)
+        Me.numtanggal.TabIndex = 16
+        '
+        'cbthn
+        '
+        Me.cbthn.FormattingEnabled = True
+        Me.cbthn.Items.AddRange(New Object() {"1945", "1946", "1947", "1948", "1949", "1950", "1951", "1952", "1953", "1954", "1955", "1956", "1957", "1958", "1959", "1960"})
+        Me.cbthn.Location = New System.Drawing.Point(406, 388)
+        Me.cbthn.Name = "cbthn"
+        Me.cbthn.Size = New System.Drawing.Size(59, 21)
+        Me.cbthn.TabIndex = 18
         '
         'cbtahun
         '
@@ -455,32 +481,6 @@ Partial Class FormPemesanan
         Me.lnkkembali.TabStop = True
         Me.lnkkembali.Text = "Kembali"
         '
-        'cbthn
-        '
-        Me.cbthn.FormattingEnabled = True
-        Me.cbthn.Items.AddRange(New Object() {"1945", "1946", "1947", "1948", "1949", "1950", "1951", "1952", "1953", "1954", "1955", "1956", "1957", "1958", "1959", "1960"})
-        Me.cbthn.Location = New System.Drawing.Point(406, 388)
-        Me.cbthn.Name = "cbthn"
-        Me.cbthn.Size = New System.Drawing.Size(59, 21)
-        Me.cbthn.TabIndex = 18
-        '
-        'numtanggal
-        '
-        Me.numtanggal.Location = New System.Drawing.Point(248, 389)
-        Me.numtanggal.Maximum = New Decimal(New Integer() {31, 0, 0, 0})
-        Me.numtanggal.Name = "numtanggal"
-        Me.numtanggal.Size = New System.Drawing.Size(52, 20)
-        Me.numtanggal.TabIndex = 16
-        '
-        'cbbln
-        '
-        Me.cbbln.FormattingEnabled = True
-        Me.cbbln.Items.AddRange(New Object() {"Januari", "Februari", "Maret ", "April ", "Mei ", "Juni", "Juli ", "Agustus", "September", "November", "Desember"})
-        Me.cbbln.Location = New System.Drawing.Point(306, 388)
-        Me.cbbln.Name = "cbbln"
-        Me.cbbln.Size = New System.Drawing.Size(94, 21)
-        Me.cbbln.TabIndex = 17
-        '
         'FormPemesanan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -488,7 +488,7 @@ Partial Class FormPemesanan
         Me.BackgroundImage = Global.imk_2.My.Resources.Resources.cool_black_and_white_designs_3387_hd_wallpapers_640x480
         Me.ClientSize = New System.Drawing.Size(576, 582)
         Me.Controls.Add(Me.lnkkembali)
-        Me.Controls.Add(Me.Label15)
+        Me.Controls.Add(Me.lblHotel)
         Me.Controls.Add(Me.lblpesan)
         Me.Controls.Add(Me.btnpesan)
         Me.Controls.Add(Me.GBPemesanan)
@@ -498,15 +498,15 @@ Partial Class FormPemesanan
         Me.Text = " Form Pemesanan"
         Me.GBPemesanan.ResumeLayout(False)
         Me.GBPemesanan.PerformLayout()
+        CType(Me.numtanggal, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.cbtanggal, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.numtanggal, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Label15 As System.Windows.Forms.Label
+    Friend WithEvents lblHotel As System.Windows.Forms.Label
     Friend WithEvents lblpesan As System.Windows.Forms.Label
     Friend WithEvents btnpesan As System.Windows.Forms.Button
     Friend WithEvents GBPemesanan As System.Windows.Forms.GroupBox

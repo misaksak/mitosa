@@ -75,6 +75,7 @@ Partial Class FormNoKamar
         Me.btn1301 = New System.Windows.Forms.Button()
         Me.btn1201 = New System.Windows.Forms.Button()
         Me.lblJenisKamar = New System.Windows.Forms.Label()
+        Me.linkkembali = New System.Windows.Forms.LinkLabel()
         Me.gbkamarkhusus.SuspendLayout()
         Me.gbkamarpremium.SuspendLayout()
         Me.gbkamarekonomi.SuspendLayout()
@@ -82,6 +83,7 @@ Partial Class FormNoKamar
         '
         'gbkamarkhusus
         '
+        Me.gbkamarkhusus.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.gbkamarkhusus.Controls.Add(Me.btn6503)
         Me.gbkamarkhusus.Controls.Add(Me.btn6403)
         Me.gbkamarkhusus.Controls.Add(Me.btn6203)
@@ -267,6 +269,7 @@ Partial Class FormNoKamar
         '
         'gbkamarpremium
         '
+        Me.gbkamarpremium.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.gbkamarpremium.Controls.Add(Me.btn4402)
         Me.gbkamarpremium.Controls.Add(Me.btn4602)
         Me.gbkamarpremium.Controls.Add(Me.btn4302)
@@ -452,6 +455,7 @@ Partial Class FormNoKamar
         '
         'gbkamarekonomi
         '
+        Me.gbkamarekonomi.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.gbkamarekonomi.Controls.Add(Me.btn2701)
         Me.gbkamarekonomi.Controls.Add(Me.Bbtn2301)
         Me.gbkamarekonomi.Controls.Add(Me.btn2201)
@@ -639,17 +643,29 @@ Partial Class FormNoKamar
         '
         Me.lblJenisKamar.AutoSize = True
         Me.lblJenisKamar.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblJenisKamar.Location = New System.Drawing.Point(195, 9)
+        Me.lblJenisKamar.Location = New System.Drawing.Point(201, 9)
         Me.lblJenisKamar.Name = "lblJenisKamar"
         Me.lblJenisKamar.Size = New System.Drawing.Size(193, 31)
-        Me.lblJenisKamar.TabIndex = 5
+        Me.lblJenisKamar.TabIndex = 0
         Me.lblJenisKamar.Text = "Pilih No Kamar"
+        '
+        'linkkembali
+        '
+        Me.linkkembali.AutoSize = True
+        Me.linkkembali.Location = New System.Drawing.Point(87, 506)
+        Me.linkkembali.Name = "linkkembali"
+        Me.linkkembali.Size = New System.Drawing.Size(44, 13)
+        Me.linkkembali.TabIndex = 0
+        Me.linkkembali.TabStop = True
+        Me.linkkembali.Text = "Kembali"
         '
         'FormNoKamar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.imk_2.My.Resources.Resources._195343431
         Me.ClientSize = New System.Drawing.Size(635, 545)
+        Me.Controls.Add(Me.linkkembali)
         Me.Controls.Add(Me.lblJenisKamar)
         Me.Controls.Add(Me.gbkamarkhusus)
         Me.Controls.Add(Me.gbkamarpremium)
@@ -717,4 +733,5 @@ Partial Class FormNoKamar
     Friend WithEvents btn1901 As System.Windows.Forms.Button
     Friend WithEvents btn1701 As System.Windows.Forms.Button
     Friend WithEvents lblJenisKamar As System.Windows.Forms.Label
+    Friend WithEvents linkkembali As System.Windows.Forms.LinkLabel
 End Class

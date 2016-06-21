@@ -6,12 +6,12 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnpesan.Click
         Text = "Berhasil Memesan Kamar"
-        Form5.Show()
+        FormPembayaran.Show()
 
 
     End Sub
 
-    Private Sub Label15_Click(sender As Object, e As EventArgs) Handles Label15.Click
+    Private Sub Label15_Click(sender As Object, e As EventArgs) Handles lblHotel.Click
 
     End Sub
 

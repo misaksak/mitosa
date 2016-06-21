@@ -84,7 +84,7 @@ Partial Class FormJenisKamar
         Me.lblcomment.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.lblcomment.Location = New System.Drawing.Point(52, 112)
         Me.lblcomment.Name = "lblcomment"
-        Me.lblcomment.Size = New System.Drawing.Size(592, 38)
+        Me.lblcomment.Size = New System.Drawing.Size(592, 37)
         Me.lblcomment.TabIndex = 27
         Me.lblcomment.Text = "Kami memiliki beberapa jenis pilihan kamar"
         '
@@ -111,7 +111,7 @@ Partial Class FormJenisKamar
         Me.lblpilih3.Location = New System.Drawing.Point(13, 315)
         Me.lblpilih3.Name = "lblpilih3"
         Me.lblpilih3.Size = New System.Drawing.Size(131, 16)
-        Me.lblpilih3.TabIndex = 27
+        Me.lblpilih3.TabIndex = 5
         Me.lblpilih3.TabStop = True
         Me.lblpilih3.Text = "Pesan Sekarang !"
         '
@@ -130,7 +130,7 @@ Partial Class FormJenisKamar
         Me.Label19.Location = New System.Drawing.Point(6, 227)
         Me.Label19.Name = "Label19"
         Me.Label19.Size = New System.Drawing.Size(174, 23)
-        Me.Label19.TabIndex = 22
+        Me.Label19.TabIndex = 3
         Me.Label19.Text = "Kamar mandi           3"
         '
         'Label16
@@ -138,7 +138,7 @@ Partial Class FormJenisKamar
         Me.Label16.Location = New System.Drawing.Point(13, 263)
         Me.Label16.Name = "Label16"
         Me.Label16.Size = New System.Drawing.Size(183, 26)
-        Me.Label16.TabIndex = 18
+        Me.Label16.TabIndex = 4
         Me.Label16.Text = "Tarif         Rp.1.499.000"
         '
         'Label15
@@ -146,7 +146,7 @@ Partial Class FormJenisKamar
         Me.Label15.Location = New System.Drawing.Point(13, 193)
         Me.Label15.Name = "Label15"
         Me.Label15.Size = New System.Drawing.Size(161, 25)
-        Me.Label15.TabIndex = 17
+        Me.Label15.TabIndex = 2
         Me.Label15.Text = "Ranjang                  3"
         '
         'Label12
@@ -162,7 +162,7 @@ Partial Class FormJenisKamar
         Me.Label9.Location = New System.Drawing.Point(19, 153)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(155, 23)
-        Me.Label9.TabIndex = 11
+        Me.Label9.TabIndex = 1
         Me.Label9.Text = "Lantai                     1"
         '
         'gbkamarpremium
@@ -197,7 +197,7 @@ Partial Class FormJenisKamar
         Me.lblpilih2.Location = New System.Drawing.Point(6, 315)
         Me.lblpilih2.Name = "lblpilih2"
         Me.lblpilih2.Size = New System.Drawing.Size(131, 16)
-        Me.lblpilih2.TabIndex = 26
+        Me.lblpilih2.TabIndex = 5
         Me.lblpilih2.TabStop = True
         Me.lblpilih2.Text = "Pesan Sekarang !"
         '
@@ -206,7 +206,7 @@ Partial Class FormJenisKamar
         Me.Label11.Location = New System.Drawing.Point(6, 227)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(162, 13)
-        Me.Label11.TabIndex = 21
+        Me.Label11.TabIndex = 3
         Me.Label11.Text = "Kamar mandi             2"
         '
         'Label18
@@ -214,7 +214,7 @@ Partial Class FormJenisKamar
         Me.Label18.Location = New System.Drawing.Point(0, 263)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(189, 26)
-        Me.Label18.TabIndex = 19
+        Me.Label18.TabIndex = 4
         Me.Label18.Text = "Tarif                  Rp.999.000"
         '
         'Label14
@@ -222,7 +222,7 @@ Partial Class FormJenisKamar
         Me.Label14.Location = New System.Drawing.Point(9, 194)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(180, 24)
-        Me.Label14.TabIndex = 16
+        Me.Label14.TabIndex = 2
         Me.Label14.Text = "Ranjang                     2"
         '
         'Label8
@@ -230,7 +230,7 @@ Partial Class FormJenisKamar
         Me.Label8.Location = New System.Drawing.Point(9, 153)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(159, 13)
-        Me.Label8.TabIndex = 10
+        Me.Label8.TabIndex = 1
         Me.Label8.Text = "Lantai                         2"
         '
         'gbkamarekonomi
@@ -255,7 +255,7 @@ Partial Class FormJenisKamar
         Me.lblpilih1.Location = New System.Drawing.Point(6, 315)
         Me.lblpilih1.Name = "lblpilih1"
         Me.lblpilih1.Size = New System.Drawing.Size(131, 16)
-        Me.lblpilih1.TabIndex = 27
+        Me.lblpilih1.TabIndex = 5
         Me.lblpilih1.TabStop = True
         Me.lblpilih1.Text = "Pesan Sekarang !"
         '
@@ -274,7 +274,7 @@ Partial Class FormJenisKamar
         Me.Label10.Location = New System.Drawing.Point(6, 191)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(176, 26)
-        Me.Label10.TabIndex = 20
+        Me.Label10.TabIndex = 2
         Me.Label10.Text = "Ranjang                    1"
         '
         'Label17
@@ -282,7 +282,7 @@ Partial Class FormJenisKamar
         Me.Label17.Location = New System.Drawing.Point(6, 263)
         Me.Label17.Name = "Label17"
         Me.Label17.Size = New System.Drawing.Size(182, 26)
-        Me.Label17.TabIndex = 18
+        Me.Label17.TabIndex = 4
         Me.Label17.Text = "Tarif                Rp.499.000"
         '
         'Label13
@@ -290,7 +290,7 @@ Partial Class FormJenisKamar
         Me.Label13.Location = New System.Drawing.Point(6, 227)
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(176, 22)
-        Me.Label13.TabIndex = 15
+        Me.Label13.TabIndex = 3
         Me.Label13.Text = "Kamar mandi            1"
         '
         'Label7
@@ -298,7 +298,7 @@ Partial Class FormJenisKamar
         Me.Label7.Location = New System.Drawing.Point(12, 153)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(170, 22)
-        Me.Label7.TabIndex = 9
+        Me.Label7.TabIndex = 1
         Me.Label7.Text = "Lantai                       3"
         '
         'FormJenisKamar

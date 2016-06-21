@@ -23,6 +23,6 @@ D:\tkppl\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk_2.FormUtama.resources
 D:\tkppl\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk_2.FormJenisKamar.resources
 D:\tkppl\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk_2.FormNoKamar.resources
 D:\tkppl\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk_2.FormPemesanan.resources
-D:\tkppl\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk_2.Form5.resources
 D:\tkppl\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk_2.Resources.resources
 D:\tkppl\mitosa\Aplikasi Sewa Hotel\obj\Debug\FormUtama.vbproj.GenerateResource.Cache
+D:\tkppl\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk_2.FormPembayaran.resources

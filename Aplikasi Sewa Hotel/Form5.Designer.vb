@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form5
+Partial Class FormPembayaran
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class Form5
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form5))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(FormPembayaran))
         Me.lblHotel = New System.Windows.Forms.Label()
         Me.btnpesan = New System.Windows.Forms.Button()
         Me.btnbatal = New System.Windows.Forms.Button()
@@ -90,7 +90,7 @@ Partial Class Form5
         Me.btnpesan.Location = New System.Drawing.Point(535, 360)
         Me.btnpesan.Name = "btnpesan"
         Me.btnpesan.Size = New System.Drawing.Size(81, 42)
-        Me.btnpesan.TabIndex = 25
+        Me.btnpesan.TabIndex = 6
         Me.btnpesan.Text = "PESAN"
         Me.btnpesan.UseVisualStyleBackColor = True
         '
@@ -99,7 +99,7 @@ Partial Class Form5
         Me.btnbatal.Location = New System.Drawing.Point(445, 360)
         Me.btnbatal.Name = "btnbatal"
         Me.btnbatal.Size = New System.Drawing.Size(75, 42)
-        Me.btnbatal.TabIndex = 24
+        Me.btnbatal.TabIndex = 5
         Me.btnbatal.Text = "Batal"
         Me.btnbatal.UseVisualStyleBackColor = True
         '
@@ -114,7 +114,7 @@ Partial Class Form5
         Me.gbpembayaran.Location = New System.Drawing.Point(485, 110)
         Me.gbpembayaran.Name = "gbpembayaran"
         Me.gbpembayaran.Size = New System.Drawing.Size(166, 244)
-        Me.gbpembayaran.TabIndex = 22
+        Me.gbpembayaran.TabIndex = 0
         Me.gbpembayaran.TabStop = False
         Me.gbpembayaran.Text = "Data Pembayaran"
         '
@@ -133,7 +133,7 @@ Partial Class Form5
         Me.txtPembayaran.Location = New System.Drawing.Point(9, 144)
         Me.txtPembayaran.Name = "txtPembayaran"
         Me.txtPembayaran.Size = New System.Drawing.Size(140, 31)
-        Me.txtPembayaran.TabIndex = 18
+        Me.txtPembayaran.TabIndex = 2
         '
         'lbljnsbayar
         '
@@ -141,7 +141,7 @@ Partial Class Form5
         Me.lbljnsbayar.Location = New System.Drawing.Point(6, 116)
         Me.lbljnsbayar.Name = "lbljnsbayar"
         Me.lbljnsbayar.Size = New System.Drawing.Size(151, 31)
-        Me.lbljnsbayar.TabIndex = 17
+        Me.lbljnsbayar.TabIndex = 0
         Me.lbljnsbayar.Text = "Jenis Pembayaran"
         '
         'lbltotbayar
@@ -150,7 +150,7 @@ Partial Class Form5
         Me.lbltotbayar.Location = New System.Drawing.Point(16, 26)
         Me.lbltotbayar.Name = "lbltotbayar"
         Me.lbltotbayar.Size = New System.Drawing.Size(130, 42)
-        Me.lbltotbayar.TabIndex = 15
+        Me.lbltotbayar.TabIndex = 0
         Me.lbltotbayar.Text = "Total Pembayaran"
         '
         'btnedit
@@ -160,7 +160,7 @@ Partial Class Form5
         Me.btnedit.Location = New System.Drawing.Point(350, 360)
         Me.btnedit.Name = "btnedit"
         Me.btnedit.Size = New System.Drawing.Size(76, 42)
-        Me.btnedit.TabIndex = 27
+        Me.btnedit.TabIndex = 4
         Me.btnedit.Text = "&Edit"
         Me.btnedit.UseVisualStyleBackColor = True
         '
@@ -441,7 +441,7 @@ Partial Class Form5
         Me.rbtunai.Location = New System.Drawing.Point(316, 136)
         Me.rbtunai.Name = "rbtunai"
         Me.rbtunai.Size = New System.Drawing.Size(52, 17)
-        Me.rbtunai.TabIndex = 44
+        Me.rbtunai.TabIndex = 2
         Me.rbtunai.TabStop = True
         Me.rbtunai.Text = "Tunai"
         Me.rbtunai.UseVisualStyleBackColor = True
@@ -452,7 +452,7 @@ Partial Class Form5
         Me.rbkredit.Location = New System.Drawing.Point(316, 171)
         Me.rbkredit.Name = "rbkredit"
         Me.rbkredit.Size = New System.Drawing.Size(52, 17)
-        Me.rbkredit.TabIndex = 45
+        Me.rbkredit.TabIndex = 3
         Me.rbkredit.TabStop = True
         Me.rbkredit.Text = "Kredit"
         Me.rbkredit.UseVisualStyleBackColor = True
@@ -467,7 +467,7 @@ Partial Class Form5
         Me.Linkkembali.TabStop = True
         Me.Linkkembali.Text = "Kembali"
         '
-        'Form5
+        'FormPembayaran
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -484,7 +484,8 @@ Partial Class Form5
         Me.Controls.Add(Me.btnbatal)
         Me.Controls.Add(Me.gbpembayaran)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "Form5"
+        Me.Name = "FormPembayaran"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form Pembayaran"
         Me.gbpembayaran.ResumeLayout(False)
         Me.gbpembayaran.PerformLayout()

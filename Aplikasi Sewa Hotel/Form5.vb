@@ -1,4 +1,4 @@
-﻿Public Class Form5
+﻿Public Class FormPembayaran
 
     Private Sub btnedit_Click(sender As Object, e As EventArgs) Handles btnedit.Click
         FormPemesanan.Show()

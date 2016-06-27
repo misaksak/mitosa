@@ -26,3 +26,18 @@ D:\tkppl\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk_2.FormPemesanan.resources
 D:\tkppl\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk_2.Form5.resources
 D:\tkppl\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk_2.Resources.resources
 D:\tkppl\mitosa\Aplikasi Sewa Hotel\obj\Debug\FormUtama.vbproj.GenerateResource.Cache
+D:\A\TKPPL\GITHUB\mitosa\Aplikasi Sewa Hotel\bin\Debug\imk 2.exe.config
+D:\A\TKPPL\GITHUB\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk 2.exe
+D:\A\TKPPL\GITHUB\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk 2.xml
+D:\A\TKPPL\GITHUB\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk 2.pdb
+D:\A\TKPPL\GITHUB\mitosa\Aplikasi Sewa Hotel\bin\Debug\imk 2.exe
+D:\A\TKPPL\GITHUB\mitosa\Aplikasi Sewa Hotel\bin\Debug\imk 2.pdb
+D:\A\TKPPL\GITHUB\mitosa\Aplikasi Sewa Hotel\bin\Debug\imk 2.xml
+D:\A\TKPPL\GITHUB\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk_2.FormUtama.resources
+D:\A\TKPPL\GITHUB\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk_2.FormJenisKamar.resources
+D:\A\TKPPL\GITHUB\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk_2.FormNoKamar.resources
+D:\A\TKPPL\GITHUB\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk_2.FormPemesanan.resources
+D:\A\TKPPL\GITHUB\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk_2.Form5.resources
+D:\A\TKPPL\GITHUB\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk_2.Form6.resources
+D:\A\TKPPL\GITHUB\mitosa\Aplikasi Sewa Hotel\obj\Debug\imk_2.Resources.resources
+D:\A\TKPPL\GITHUB\mitosa\Aplikasi Sewa Hotel\obj\Debug\FormUtama.vbproj.GenerateResource.Cache

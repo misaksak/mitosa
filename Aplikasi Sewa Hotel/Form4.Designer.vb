@@ -57,6 +57,7 @@ Partial Class FormPemesanan
         Me.lblkartu = New System.Windows.Forms.Label()
         Me.lblpemesanan = New System.Windows.Forms.Label()
         Me.lnkkembali = New System.Windows.Forms.LinkLabel()
+        Me.btnTampil = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
@@ -434,12 +435,22 @@ Partial Class FormPemesanan
         Me.lnkkembali.TabStop = True
         Me.lnkkembali.Text = "Kembali"
         '
+        'btnTampil
+        '
+        Me.btnTampil.Location = New System.Drawing.Point(469, 45)
+        Me.btnTampil.Name = "btnTampil"
+        Me.btnTampil.Size = New System.Drawing.Size(75, 23)
+        Me.btnTampil.TabIndex = 46
+        Me.btnTampil.Text = "TAMPIL"
+        Me.btnTampil.UseVisualStyleBackColor = True
+        '
         'FormPemesanan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.imk_2.My.Resources.Resources._097_example
         Me.ClientSize = New System.Drawing.Size(576, 582)
+        Me.Controls.Add(Me.btnTampil)
         Me.Controls.Add(Me.lnkkembali)
         Me.Controls.Add(Me.Label15)
         Me.Controls.Add(Me.lblpesan)
@@ -491,4 +502,5 @@ Partial Class FormPemesanan
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents lnkkembali As System.Windows.Forms.LinkLabel
+    Friend WithEvents btnTampil As System.Windows.Forms.Button
 End Class

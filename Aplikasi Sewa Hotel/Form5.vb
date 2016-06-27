@@ -62,4 +62,8 @@
         Text = "Kembali Ke Form Pemesanan"
         FormPemesanan.Show()
     End Sub
+
+    Private Sub lblHotel_Click(sender As Object, e As EventArgs) Handles lblHotel.Click
+
+    End Sub
 End Class
